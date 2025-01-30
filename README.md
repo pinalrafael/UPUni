@@ -32,9 +32,9 @@ Console.WriteLine(UPUni.Cryptor.Text.EncodeToBase64("test"));//dGVzdA==
 Console.WriteLine(UPUni.Cryptor.Text.DecodeFrom64("dGVzdA=="));//test
 
 //MD5
-string s = UPUni.Cryptor.Text.Md5Hash("test");//098f6bcd4621d373cade4e832627b4f6
+Console.WriteLine(UPUni.Cryptor.Text.Md5Hash("test"));//098f6bcd4621d373cade4e832627b4f6
 //SHA1
-string s1 = UPUni.Cryptor.Text.SHA1Hash("test");//A94A8FE5CCB19BA61C4C0873D391E987982FBBD3
+Console.WriteLine(UPUni.Cryptor.Text.SHA1Hash("test"));//A94A8FE5CCB19BA61C4C0873D391E987982FBBD3
 ```
 
 The `UPUni.Cryptor.File` class has functions for encoding and decoding files.
@@ -48,7 +48,7 @@ UPUni.Cryptor.File.Encrypt("D:\\UPUni\\Sample\\file.txt", "12345678");
 UPUni.Cryptor.File.Decrypt("D:\\UPUni\\Sample\\file.txt", "12345678");
 ```
 
-![Example Cryptor](Sample/assets/Cryptor.png)
+![Example Cryptor](https://github.com/pinalrafael/UPUni/blob/master/Sample/assets/Cryptor.png)
 
 ServerDirectory
 ---------------------------
@@ -72,7 +72,7 @@ using (new UPUni.ServerDirectory.Impersonator("username", "domain", "password"))
 }
 ```
 
-![Example ServerDirectory](Sample/assets/ServerDirectory.png)
+![Example ServerDirectory](https://github.com/pinalrafael/UPUni/blob/master/Sample/assets/ServerDirectory.png)
 
 ListToTable
 ---------------------------
@@ -116,7 +116,7 @@ UPUni.ListToTable.CollectionHelper.AddAttributeData(AttrState);
 dgvLista.DataSource = UPUni.ListToTable.CollectionHelper.ConvertTo<Table>(tables);
 ```
 
-![Example ListToTable](Sample/assets/ListToTable.png)
+![Example ListToTable](https://github.com/pinalrafael/UPUni/blob/master/Sample/assets/ListToTable.png)
 
 TreeDirectory
 ---------------------------
@@ -137,7 +137,7 @@ new UPUni.TreeDirectory.SimpleTree.ConfigSimpleTree()
 });
 ```
 
-![Example TreeDirectory](Sample/assets/TreeDirectory.png)
+![Example TreeDirectory](https://github.com/pinalrafael/UPUni/blob/master/Sample/assets/TreeDirectory.png)
 
 FTPServerCommunication
 ---------------------------
@@ -195,7 +195,7 @@ private void FTPManager_ServerLog(object sender, UPUni.Events.ServerLogEventArgs
 }
 ```
 
-![Example FTPServerCommunication](Sample/assets/FTPServerCommunication.png)
+![Example FTPServerCommunication](https://github.com/pinalrafael/UPUni/blob/master/Sample/assets/FTPServerCommunication.png)
 
 WifiManager
 ---------------------------
@@ -230,7 +230,7 @@ private void ManagerWifi_ConnectionStatusChanged(object sender, WifiConnection.W
 }
 ```
 
-![Example WifiManager](Sample/assets/WifiManager.png)
+![Example WifiManager](https://github.com/pinalrafael/UPUni/blob/master/Sample/assets/WifiManager.png)
 
 StringsCombinations
 ---------------------------
@@ -266,7 +266,7 @@ private void Combinations_GenerateCombinationsEvent(object sender, UPUni.Events.
 }
 ```
 
-![Example StringsCombinations](Sample/assets/StringsCombinations.png)
+![Example StringsCombinations](https://github.com/pinalrafael/UPUni/blob/master/Sample/assets/StringsCombinations.png)
 
 
 UPUni.Components
@@ -316,7 +316,7 @@ private void ListCustom_SelectedItem(object sender, UPUni.Components.Events.Sele
 }
 ```
 
-![Example CustomList](Sample/assets/CustomList.png)
+![Example CustomList](https://github.com/pinalrafael/UPUni/blob/master/Sample/assets/CustomList.png)
 
 PassConnection
 ==========
@@ -327,7 +327,7 @@ Console software to demonstrate the use of the `UPUni.WifiManager.ManagerWifi` a
 PassConnection.exe -TPWPA -LG1 -SV0 -MI8 -MX8 -RC´`~^/\\|(){}[]<>%-_=+?;:,. -AL0 -AU0 -HK1
 ```
 
-![Example PassConnection](Sample/assets/PassConnection.png)
+![Example PassConnection](https://github.com/pinalrafael/UPUni/blob/master/Sample/assets/PassConnection.png)
 
 Follow me
 ==========
