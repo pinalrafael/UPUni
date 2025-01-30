@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package >
+  <metadata>
+    <id>$id$</id>
+    <version>$version$</version>
+    <title>$title$</title>
+    <authors>$author$</authors>
+    <owners>$author$</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <license type="expression">MIT</license>
+    <projectUrl>https://github.com/pinalrafael/UPUni</projectUrl>
+    <iconUrl>http://cpsystems.com.br/Images/logo.png</iconUrl>
+    <description>$description$</description>
+    <releaseNotes>Start version.</releaseNotes>
+    <copyright>Copyright 2025</copyright>
+    <tags>FileEncrypt FileDecrypt ByteEncypt ByteDecrypt HardEncrypt HardDecript ServerImpersonator Base64Encode Base64Decode MD5 SHA1 ListToTable TreeDirectory FTPServerCommunication FTP SFTP FTPManager WifiManager StringsCombinations</tags>
+  </metadata>
+</package>

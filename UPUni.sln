@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33213.308
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UPUni", "UPUni\UPUni.csproj", "{8A16C9D3-55B3-4714-96FE-AE98B145F9EC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sample", "Sample\Sample.csproj", "{4CA094A3-75D1-4A4C-9DF7-57CAA570280D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UPUni.Components", "UPUni.Components\UPUni.Components.csproj", "{A3FF1CA0-1FC0-4189-A8A1-8254573678BD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WifiConnection", "SimpleWifi\WifiConnection.csproj", "{6AA425C9-EA6A-4B01-AAED-5FF122E8B663}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Itens de Solução", "Itens de Solução", "{35129C93-6A2B-4AA2-97F6-D786C2E7C138}"
+	ProjectSection(SolutionItems) = preProject
+		LICENSE.md = LICENSE.md
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PassConnection", "PassConnection\PassConnection.csproj", "{6AB0AE58-C34D-422D-801F-DBC1B615FDAA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8A16C9D3-55B3-4714-96FE-AE98B145F9EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A16C9D3-55B3-4714-96FE-AE98B145F9EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A16C9D3-55B3-4714-96FE-AE98B145F9EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A16C9D3-55B3-4714-96FE-AE98B145F9EC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4CA094A3-75D1-4A4C-9DF7-57CAA570280D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4CA094A3-75D1-4A4C-9DF7-57CAA570280D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4CA094A3-75D1-4A4C-9DF7-57CAA570280D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4CA094A3-75D1-4A4C-9DF7-57CAA570280D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A3FF1CA0-1FC0-4189-A8A1-8254573678BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A3FF1CA0-1FC0-4189-A8A1-8254573678BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A3FF1CA0-1FC0-4189-A8A1-8254573678BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A3FF1CA0-1FC0-4189-A8A1-8254573678BD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6AA425C9-EA6A-4B01-AAED-5FF122E8B663}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6AA425C9-EA6A-4B01-AAED-5FF122E8B663}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6AA425C9-EA6A-4B01-AAED-5FF122E8B663}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6AA425C9-EA6A-4B01-AAED-5FF122E8B663}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6AB0AE58-C34D-422D-801F-DBC1B615FDAA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6AB0AE58-C34D-422D-801F-DBC1B615FDAA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6AB0AE58-C34D-422D-801F-DBC1B615FDAA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6AB0AE58-C34D-422D-801F-DBC1B615FDAA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EACA76D1-1F2A-47F7-8DFC-5FABE79EDCD9}
+	EndGlobalSection
+EndGlobal
