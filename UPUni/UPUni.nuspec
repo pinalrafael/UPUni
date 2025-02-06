@@ -11,7 +11,7 @@
     <projectUrl>https://github.com/pinalrafael/UPUni</projectUrl>
     <iconUrl>http://cpsystems.com.br/Images/logo.png</iconUrl>
     <description>$description$</description>
-    <releaseNotes>Start version.</releaseNotes>
+    <releaseNotes>FIX format in ListToTable.</releaseNotes>
     <copyright>Copyright 2025</copyright>
     <tags>FileEncrypt FileDecrypt ByteEncypt ByteDecrypt HardEncrypt HardDecript ServerImpersonator Base64Encode Base64Decode MD5 SHA1 ListToTable TreeDirectory FTPServerCommunication FTP SFTP FTPManager WifiManager StringsCombinations</tags>
   </metadata>

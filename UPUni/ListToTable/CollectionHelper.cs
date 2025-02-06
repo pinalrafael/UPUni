@@ -73,10 +73,11 @@ namespace UPUni.ListToTable
                                         break;
                                     }
                                 }
-                                if (!tableAttribute.Format.Equals(string.Empty))
-                                {
-                                    val = string.Format(tableAttribute.Format, val);
-                                }
+                            }
+
+                            if (!tableAttribute.Format.Equals(string.Empty))
+                            {
+                                val = string.Format(tableAttribute.Format, val);
                             }
 
                             row[tableAttribute.Text] = val;
